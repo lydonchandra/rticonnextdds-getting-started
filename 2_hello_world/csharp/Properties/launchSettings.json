@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "hello_world publisher": {
+      "commandName": "Project",
+      "commandLineArgs": "--pub --domain 100 --sample-count 10",
+      "environmentVariables": {
+        "RTI_LICENSE_FILE": "/opt/rti_license.dat"
+      }
+    },
+    "hello_world subscriber": {
+      "commandName": "Project",
+      "commandLineArgs": "--sub --domain 100",
+      "environmentVariables": {
+        "RTI_LICENSE_FILE": "/opt/rti_license.dat"
+      }
+    }
+  }
+}

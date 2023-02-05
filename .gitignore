@@ -6,7 +6,7 @@ objs/
 bin/
 obj/
 build/
-*.csproj
+#*.csproj
 *.vcxproj.filters
 *.vcxproj.user
 *.sdf
@@ -45,7 +45,7 @@ build.xml
 # Those projects that have specific ones will be enabled in their .gitignore
 Makefile
 makefile*
-*.sln
+#*.sln
 *.vcxproj
 build
 
@@ -63,8 +63,8 @@ __pycache__/
 
 # Vim
 *.swp
-!**/csharp/**/*.csproj
-!**/csharp/**/*.sln
+#!**/csharp/**/*.csproj
+#!**/csharp/**/*.sln
 
 # .NET
 NuGet.Config
